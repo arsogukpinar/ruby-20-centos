@@ -63,5 +63,6 @@ if [[ "$RAILS_ENV" == "production" || "$RACK_ENV" == "production" ]]; then
 fi
 
 # TODO: Add `rake db:migrate` if linked with DB container
+echo "---> CUSTOM STI ASSEMBLE COMPLETE"
 
 popd >/dev/null
